@@ -13,19 +13,19 @@ namespace Devdog.QuestSystemPro
         }
 
 
-        protected ILocalIdentifier GetLocalIdentifierFromNetworkIdentity(NetworkIdentity identity)
-        {
-            foreach (var q in questStates)
-            {
-                if (q.Key.ID == identity.playerControllerId.ToString()) // TODO: Not a valid ID comparison
-                {
-                    return q.Key;
-                }
-            }
+        // protected ILocalIdentifier GetLocalIdentifierFromNetworkIdentity(NetworkIdentity identity)
+        // {
+        //     foreach (var q in questStates)
+        //     {
+        //         if (q.Key.ID == identity.playerControllerId.ToString()) // TODO: Not a valid ID comparison
+        //         {
+        //             return q.Key;
+        //         }
+        //     }
 
-            DevdogLogger.LogWarning("Local identifier not found for identity with controller ID: " + identity.playerControllerId);
-            return null;
-        }
+        //     DevdogLogger.LogWarning("Local identifier not found for identity with controller ID: " + identity.playerControllerId);
+        //     return null;
+        // }
 
 
         public override bool HasCompletedQuest(Quest quest)
@@ -117,11 +117,11 @@ namespace Devdog.QuestSystemPro
         {
             Awake();
 
-            var manager = FindObjectOfType<NetworkManager>();
-            if (manager.isNetworkActive == false)
-            {
-                manager.StartHost();
-            }
+            // var manager = FindObjectOfType<NetworkManager>();
+            // if (manager.isNetworkActive == false)
+            // {
+            //     manager.StartHost();
+            // }
 
 //            manager.StopHost();
         }
