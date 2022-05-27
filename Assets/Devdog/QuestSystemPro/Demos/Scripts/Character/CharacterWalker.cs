@@ -76,7 +76,8 @@ namespace Devdog.QuestSystemPro.Demo
         public Vector3 CalcDirection()
         {
             _moveDirection = new Vector3(GetHorizontal(), 0, GetVertical());
-            _moveDirection = _cam.transform.TransformDirection(_moveDirection);
+            // _moveDirection = _cam.transform.TransformDirection(_moveDirection);
+            _moveDirection = transform.TransformDirection(_moveDirection);
 
             _moveDirection *= walkSpeed;
             _moveDirection.y = 0;

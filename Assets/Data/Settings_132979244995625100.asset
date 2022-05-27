@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Settings_132979244995625100
   m_EditorClassIdentifier: 
   playerMaxActiveQuests: 10
-  defaultRewardRowUI: {fileID: 0}
-  defaultTaskRowUI: {fileID: 0}
+  defaultRewardRowUI: {fileID: 11462060, guid: ae760b2cdb27ec74e8b47e66373cf9b7, type: 3}
+  defaultTaskRowUI: {fileID: 11480520, guid: 8f95899e623d6b144af6b9a0b71d7e4d, type: 3}
   defaultNodeUIPrefab: {fileID: 0}
   playerDecisionNodeUI: {fileID: 0}
   playerInputNodeUIPrefab: {fileID: 0}

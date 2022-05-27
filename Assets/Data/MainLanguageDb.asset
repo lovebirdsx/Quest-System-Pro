@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b75a309ff767a4bb3ede0d5c1d2f6f, type: 3}
   m_Name: MainLanguageDb
   m_EditorClassIdentifier: 
-  _serializedJsonString: '{"_lang":"en-US","_localizedStrings":{},"_localizedObjects":{}}'
+  _serializedJsonString: '{"_lang":"en-US","_localizedStrings":{"1ca9beb4-373f-4079-afd6-32912ae12f33":"Kill
+    {0}/{2} Monsters","18890d2b-550d-4d02-b5de-3143b5db48ee":"This is task 1 Description.","c84d6c1e-3724-4f24-8c7a-63aa961172dd":"Kill
+    Monsters","766eab2d-c805-46e4-ae28-c180a3a97468":"Kill some monsters"},"_localizedObjects":{}}'
   _objectReferences: []
   _lang: en-US
